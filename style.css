@@ -1,0 +1,32 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start, #number_of_objects{
+    font-size: 18px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #ff9900;
+    font-weight: 1000;
+    font-style: italic;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    margin-top: 130px;
+    border: 2px solid rgb(0, 255, 136);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px red;
+}
